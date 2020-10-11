@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?> <!--This is the XML declaration identifying the file as XML with encoding UTF-8-->
+<Library> <!--This is the root element that the below elements fall under-->
+    <books catalogue="Technical"> <!--Create the element books under the Technical category with the attributes for ISBN, title & author-->
+        <ISBN>9781593276034</ISBN>
+        <title>Python Crash Course, 2nd Edition: A Hands-On, Project-Based Introduction to Programming</title>
+        <author>Eric Matthes</author>
+    </books><!--Close this book element-->
+    <books catalogue="Technical">
+        <ISBN>9781683923527</ISBN>
+        <title>Python Basics A Self-Teaching Introduction</title>
+        <author>H. Bhasin</author>
+    </books>
+    <books catalogue="Cookery"> <!--Create the element books under the Cookery catalogue with the attributes for ISBN, title & author-->
+        <ISBN>9781683936894</ISBN>
+        <title>Cooking With Clifton : Idiot Proof</title>
+        <author>Rudy Clifton</author>
+    </books>
+    <books catalogue="Cookery">
+        <ISBN>9780241229781</ISBN>
+        <title>The Science of Cooking: Every Question Answered to Perfect your Cooking</title>
+        <author>Dr. Stuart Farrimond</author>
+    </books>
+</Library> <!--Close the root element-->
