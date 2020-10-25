@@ -1,0 +1,28 @@
+N
+N	53.4509
+N	53.4509	-6.15649
+N	53.4509	-6.15649	B712
+N	53.4509	-6.15649	B712	25 Oct 2020
+N	53.4509	-6.15649	B712	25 Oct 2020	B712\nMalahide to Dublin Connolly\nExpected Departure 14:48
+N	53.4509	-6.15649	B712	25 Oct 2020	B712\nMalahide to Dublin Connolly\nExpected Departure 14:48	Southbound
+R
+R	53.523
+R	53.523	-7.34608
+R	53.523	-7.34608	A902
+R	53.523	-7.34608	A902	25 Oct 2020
+R	53.523	-7.34608	A902	25 Oct 2020	A902\n14:00 - Maynooth to Sligo (-1 mins late)\nArrived Mullingar next stop Edgeworthstown
+R	53.523	-7.34608	A902	25 Oct 2020	A902\n14:00 - Maynooth to Sligo (-1 mins late)\nArrived Mullingar next stop Edgeworthstown	Northbound
+R
+R	53.523
+R	53.523	-7.34608
+R	53.523	-7.34608	A905
+R	53.523	-7.34608	A905	25 Oct 2020
+R	53.523	-7.34608	A905	25 Oct 2020	A905\n13:05 - Sligo to Maynooth (6 mins late)\nArrived Mullingar next stop Enfield
+R	53.523	-7.34608	A905	25 Oct 2020	A905\n13:05 - Sligo to Maynooth (6 mins late)\nArrived Mullingar next stop Enfield	Southbound
+T
+T	53.4509
+T	53.4509	-6.15649
+T	53.4509	-6.15649	P712
+T	53.4509	-6.15649	P712	25 Oct 2020
+T	53.4509	-6.15649	P712	25 Oct 2020	P712\n14:05 - Drogheda to Malahide(0 mins late)\nTERMINATED Malahide at 14:42
+T	53.4509	-6.15649	P712	25 Oct 2020	P712\n14:05 - Drogheda to Malahide(0 mins late)\nTERMINATED Malahide at 14:42	Southbound
