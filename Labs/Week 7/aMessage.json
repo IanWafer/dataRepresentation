@@ -1,0 +1,233 @@
+{
+    "id": "17550f463d2ecf03",
+    "threadId": "17550f463d2ecf03",
+    "labelIds": [
+        "IMPORTANT",
+        "CATEGORY_PERSONAL",
+        "INBOX"
+    ],
+    "snippet": "Hi guys, Please find attached. I was wondering if we could start at 7 or earlier today, just to finish up earlier than 9. Do let me know, Kind Regards, Giorgiana Sent from my iPhone Begin forwarded",
+    "payload": {
+        "partId": "",
+        "mimeType": "multipart/alternative",
+        "filename": "",
+        "headers": [
+            {
+                "name": "Delivered-To",
+                "value": "ianwafer@gmail.com"
+            },
+            {
+                "name": "Received",
+                "value": "by 2002:a9a:7ac8:0:b029:91:8304:2fbd with SMTP id i8csp1763856lkn;        Thu, 22 Oct 2020 08:36:37 -0700 (PDT)"
+            },
+            {
+                "name": "X-Google-Smtp-Source",
+                "value": "ABdhPJxrkAEB/J9JPNRXT+QCV1txKGk5h+LbaHKqPsy7z/1hYTr3vACflLZZ2PtHwcxfeC5vrP7p"
+            },
+            {
+                "name": "X-Received",
+                "value": "by 2002:a7b:c085:: with SMTP id r5mr3005859wmh.17.1603380994815;        Thu, 22 Oct 2020 08:36:34 -0700 (PDT)"
+            },
+            {
+                "name": "ARC-Seal",
+                "value": "i=1; a=rsa-sha256; t=1603380994; cv=none;        d=google.com; s=arc-20160816;        b=NSLyCtf8xgXJzNfaz4x5OGu1WbqQaB8fK/Zfdn+ef3xzD5mCEFvVkxsERYpWlac0zB         RGUjXPMfTodHk6JED8IsN1oxnSX6awDFkusyqcb9Xpe1szy8xjgsZ7QV0fMhkd4J297J         PeKuWTPSi5Ae/RIxAFpOflT92Zf+FsGmUab803ZWzfaQKOdhukKma8fN8NyvriYReq2n         mzcRQiLIH4lhGyYv0Jw5bSvLgUL8XMl6gX/GUo3s92U4tP1Ikwr0tCVsVfyW8F9cC9GA         2dyh5Ht4yYUxJRpKT3evNgyP2Ai0Q7fSJ8oNHHXSo9sq6jH8nkjOJDMZjEHRDiRgx+/6         ylSA=="
+            },
+            {
+                "name": "ARC-Message-Signature",
+                "value": "i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;        h=to:references:message-id:subject:date:mime-version:from         :content-transfer-encoding:dkim-signature;        bh=ZNFxjm3orGo/MZ7OOiQpK2kBPgiI0rsvMrL11o93rpk=;        b=jTI8lZLO2oscelyqFpG6nhdkj3JzUDKJb0Xcvh8rfYehgW8L/VigU6uDUcesSUAIiZ         OJ47XsSa1iHOc5x2Mc0yXCkVaSjbZW+wB9LCanxYQT24w3ZK/8SmlMs7QTqOaIQo0GCf         GmdsEt55GYlvSZIP1z1VtZhMIrfdfiDlcqWOJf3Kz9XlfE+5GcPhAD6Mrm00JAtbQhTN         DD7kE5YrxA4GCeAww2y8mWm763hvMH5TMwSLE4CQCqf9Jh13mwaQqHacXVNvjmCm4SDq         FQ0lVbEWZ9MIk1+qBdxwMjZaFixrhBbOOm0cmNz+e1C8GkU4Sao/f44oq2/fPKwlhGf6         V1wQ=="
+            },
+            {
+                "name": "ARC-Authentication-Results",
+                "value": "i=1; mx.google.com;       dkim=pass header.i=@yahoo.com header.s=s2048 header.b=ANn4ETn8;       spf=pass (google.com: domain of giorgiana_goci@yahoo.com designates 77.238.177.32 as permitted sender) smtp.mailfrom=giorgiana_goci@yahoo.com;       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=yahoo.com"
+            },
+            {
+                "name": "Return-Path",
+                "value": "<giorgiana_goci@yahoo.com>"
+            },
+            {
+                "name": "Received",
+                "value": "from sonic310-11.consmr.mail.ir2.yahoo.com (sonic310-11.consmr.mail.ir2.yahoo.com. [77.238.177.32])        by mx.google.com with ESMTPS id j129si1580754wmj.191.2020.10.22.08.36.33        for <ianwafer@gmail.com>        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);        Thu, 22 Oct 2020 08:36:34 -0700 (PDT)"
+            },
+            {
+                "name": "Received-SPF",
+                "value": "pass (google.com: domain of giorgiana_goci@yahoo.com designates 77.238.177.32 as permitted sender) client-ip=77.238.177.32;"
+            },
+            {
+                "name": "Authentication-Results",
+                "value": "mx.google.com;       dkim=pass header.i=@yahoo.com header.s=s2048 header.b=ANn4ETn8;       spf=pass (google.com: domain of giorgiana_goci@yahoo.com designates 77.238.177.32 as permitted sender) smtp.mailfrom=giorgiana_goci@yahoo.com;       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=yahoo.com"
+            },
+            {
+                "name": "DKIM-Signature",
+                "value": "v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1603380993; bh=ZNFxjm3orGo/MZ7OOiQpK2kBPgiI0rsvMrL11o93rpk=; h=From:Date:Subject:References:To:From:Subject; b=ANn4ETn8zFlle+xw01s8h+Ahc526bgTsyCxyA9taECKqx/DFHAmoY6UTYKwrn3Omx9VkOot21MEseF4tL3Kk5POnU+zjKbv5/ed7zQH1OZO5/04ZKLWw5WYRPWParBDNZ3Q5uPUqelqu+3exBg2Dsr8s1dhz7ZPaC1aknJ7yEqMhOMZiJbkMQTxcz2o50i/DmtFc6IEY7v6OSd5olERxF39BxIwquvExjV6dWlkodDG1M03rV+q/4PwdQWqxMPuSGHRW+xy5gQiQB1Z9ACUVJ2fjmt8L2wk8PBo+B/Dqrf6el0rUXfNX4n7MolucH+8SamJoXTXvRQd4nqB7YUKlgQ=="
+            },
+            {
+                "name": "X-SONIC-DKIM-SIGN",
+                "value": "v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1603380993; bh=yLJ1zEHCQR3qIph0SPkCm46WLkzUHu6Buc54APSSVTV=; h=From:Date:Subject:To; b=fRbPcoNhOV+hOqG/jq48Gxo2JHSoGEWUrtInLByUaZd3WejD5Cnq+yocvCvYQlpAIARFRnzdRKTNEFdJrdWqVgtK4cF8KS/zxwtJT/16L6FL5ozWu56RJ9cUPJ65QWGni9I8ZbolwFhyQvzGMW20FFmB+YT9AvWIAxFR+u5L9sc4OEQkE1Otd9Q+fgDyrke0MYSAwYJVkiuWsz72UpH3vTlTXqbxCI6kgJgIeMAg5LxfXOdDWfhOnPAFrFvEYW5f9ylqCZw3X9Fj+/ZsrV/GyeQTrn2QK7VVX57uiEmM7buB15L43YfDz4sgSyZYF3wOHL23YvPPEK4XbFy5Ir3CMg=="
+            },
+            {
+                "name": "X-YMail-OSG",
+                "value": "PwOYZXgVM1lJYbHgA6eQeVUHzVkd_8YG0FbYAtIu2_U9hDKimmhdfxZql1FTnyF Vmdt0ouAnalMKZ4i1t3QEF6A6miwsQM7emRWVLeifZ5mGa0CJRqluGKhkV.GExPKh9PxKWd0BTBW 5PivKGnjx_8jLA3FXbDWjiHsBV1Z8vSbKLaMS2q9BKr7i2hwEivbrFgOCnVeu_FHpeMYmt0pn1vM TzYrVFt.7ehqk.wF_qOo6YxEEVdjCVuCB19dpuCHG9ThnRvVy_Eh5xfeLK3oM4g_hSkZVjGG0uf5 EtIT8FXckX3botIIptY.8xpwD2nbJru75_XWWilf8RgpHdNESd60H_uJBqPQBxrkCX.aJDXSVcqK fNWnJf_J4KxKMsK7dIWFV6MHxrNUpIzQFgZfETEJC0uiY4ofvx3LjVwOrpz97XFMoHA_P7djFXgV NCtQeNBMPR76v.F_zsfGa0Lk9NF75_GULI3H.H7dxBBHRLYKnwBqLMETeCIf9vWAVi1D7rT0MPJF dUbPnBOf5LDFfFM1M_XqtZIU9D1v7IXvFoHZkaxb4F6nht_PJXzVrOwL1L4TQrZmimbImxwn77MY 6YRLH9lXEmFElIwiriwYWwu6dwloXnfSySvBVXI0nSfLNu328VT8KT6d2.7gT0sryUkOCUUwsl9Z T4s_wiyoX7SuLqjYEH2yF4KfuSwpp7sU2VVBmrCV6ecGqBwFmBXPm8LAw_n0mk7yWxi_oLNhPS5. DwCZK2BfnmPuXv0uLFiCp83LgmzMFVMBPmluovQ9keQ1_og.UPS8__uqXj9.2DIjHawfWDoZGxi2 PnY0CqlTBx4VXibPHpnjdob09H90Bk9v4tvDx3S4qUGv5OUt18C3RrK1ELGpzbuc_MM79hd15Q8d EoXryXon6I_U4IICi1GzCJTrJ.O7tCxS33onxDFGo0zZ1HwGQwwCPY3lb4CxV6ef.k2ODfsbRpNh Q6tu0W9nqU3LkUTUbTDk1Di_J1FthVUF8WLWdFYv9YW7YWCwLQIhP9doOXd0Ys3RJ.adpm.4nsk3 7YLCqY1zB1K.spbIu2x2TFceBALVGhZPCV1V5VTfmBuhYcpIynyRlmhc3X7Fnf_Y3.YWrtMLyXQb YOVwcbB7n3z4H4nCN4CGp1tK.4lDLfk0wFbF3wMUQMkVmlAAw7.OUS7aRDwhUxF8SRLVLYSnJJLr MRKaaE3n5c30U9j2ndPStbUCFvvYSgB4U7MhSmmY2SVqwlBPxTQAiYqUShf7u6zcPWXS9vO8pXlG Nqm6qvZd6kJcbneLQx8Amhw3424Di.rlLl44kDWPH_YgF65FmRKmmqUkb.MerIxVUMUCO3Zm3oAU 5hPkptE57b1UcR0eABNxft4rSHIrNmoti7YgN9nMaESeMQMM779j2i3YDSaIPpXG49VoIxXjKxPJ gE6IHpudtPVcQWEM56avZVEk3Ktq99kuxhYGuBqNgqERDLIq_oFOGGkC1SOERBLW4KUvDyds94US GQUXEKbw8K.M1k5ZdAFdL6s3jafAHN_eUlMjnxWC4mE4Tb5cpbmNFYo5gpDeLVch.RVu8C3N9.g- -"
+            },
+            {
+                "name": "Received",
+                "value": "from sonic.gate.mail.ne1.yahoo.com by sonic310.consmr.mail.ir2.yahoo.com with HTTP; Thu, 22 Oct 2020 15:36:33 +0000"
+            },
+            {
+                "name": "Received",
+                "value": "by smtp412.mail.ir2.yahoo.com (VZM Hermes SMTP Server) with ESMTPA ID 2d131334c64580938fc49029aed31aab;          Thu, 22 Oct 2020 15:36:24 +0000 (UTC)"
+            },
+            {
+                "name": "Content-Type",
+                "value": "multipart/alternative; boundary=Apple-Mail-0EDAB86E-9AC7-4356-85C7-A33E2DE40652"
+            },
+            {
+                "name": "Content-Transfer-Encoding",
+                "value": "7bit"
+            },
+            {
+                "name": "From",
+                "value": "giorgi goci <giorgiana_goci@yahoo.com>"
+            },
+            {
+                "name": "Mime-Version",
+                "value": "1.0 (1.0)"
+            },
+            {
+                "name": "Date",
+                "value": "Thu, 22 Oct 2020 16:36:23 +0100"
+            },
+            {
+                "name": "Subject",
+                "value": "Fwd: Lectia numarul 3"
+            },
+            {
+                "name": "Message-Id",
+                "value": "<6FA62C20-0CA4-40A6-A682-F26FA0BA04F2@yahoo.com>"
+            },
+            {
+                "name": "References",
+                "value": "<AM0PR10MB2770ED1A9F86090E41B439D58A1D0@AM0PR10MB2770.EURPRD10.PROD.OUTLOOK.COM>"
+            },
+            {
+                "name": "To",
+                "value": "Ian Finney <finneys13@gmail.com>, ianwafer@gmail.com, josephdoconnor@gmail.com"
+            },
+            {
+                "name": "X-Mailer",
+                "value": "iPhone Mail (17G80)"
+            },
+            {
+                "name": "Content-Length",
+                "value": "1728115"
+            }
+        ],
+        "body": {
+            "size": 0
+        },
+        "parts": [
+            {
+                "partId": "0",
+                "mimeType": "text/plain",
+                "filename": "",
+                "headers": [
+                    {
+                        "name": "Content-Type",
+                        "value": "text/plain; charset=utf-8"
+                    },
+                    {
+                        "name": "Content-Transfer-Encoding",
+                        "value": "quoted-printable"
+                    }
+                ],
+                "body": {
+                    "size": 422,
+                    "data": "SGkgZ3V5cywgDQoNClBsZWFzZSBmaW5kIGF0dGFjaGVkLiANCkkgd2FzIHdvbmRlcmluZyBpZiB3ZSBjb3VsZCBzdGFydCBhdCA3IG9yIGVhcmxpZXIgdG9kYXksIGp1c3QgdG8gZmluaXNoIHVwIGVhcmxpZXIgdGhhbiA5LiANCg0KRG8gbGV0IG1lIGtub3csIA0KS2luZCBSZWdhcmRzLCANCkdpb3JnaWFuYSANCg0KU2VudCBmcm9tIG15IGlQaG9uZQ0KDQpCZWdpbiBmb3J3YXJkZWQgbWVzc2FnZToNCg0KPiBGcm9tOiBHaW9yZ2lhbmEgR29jaSA8R2lvcmdpYW5hLkdvY2lAbGlkbC5pZT4NCj4gRGF0ZTogMjIgT2N0b2JlciAyMDIwIGF0IDE1OjU2OjI0IElTVA0KPiBUbzogZ2lvcmdpIGdvY2kgPGdpb3JnaWFuYV9nb2NpQHlhaG9vLmNvbT4NCj4gU3ViamVjdDogTGVjdGlhIG51bWFydWwgMw0KPiANCj4g77u_DQo-ICANCj4gIA0KPiAgDQo="
+                }
+            },
+            {
+                "partId": "1",
+                "mimeType": "multipart/mixed",
+                "filename": "",
+                "headers": [
+                    {
+                        "name": "Content-Type",
+                        "value": "multipart/mixed; boundary=Apple-Mail-76CD49CE-0013-4018-BDE7-371D7D3B47E9"
+                    },
+                    {
+                        "name": "Content-Transfer-Encoding",
+                        "value": "7bit"
+                    }
+                ],
+                "body": {
+                    "size": 0
+                },
+                "parts": [
+                    {
+                        "partId": "1.0",
+                        "mimeType": "text/html",
+                        "filename": "",
+                        "headers": [
+                            {
+                                "name": "Content-Type",
+                                "value": "text/html; charset=utf-8"
+                            },
+                            {
+                                "name": "Content-Transfer-Encoding",
+                                "value": "quoted-printable"
+                            }
+                        ],
+                        "body": {
+                            "size": 2091,
+                            "data": "PGh0bWw-PGhlYWQ-PG1ldGEgaHR0cC1lcXVpdj0iY29udGVudC10eXBlIiBjb250ZW50PSJ0ZXh0L2h0bWw7IGNoYXJzZXQ9dXRmLTgiPjwvaGVhZD48Ym9keSBkaXI9ImF1dG8iPkhpIGd1eXMsJm5ic3A7PGRpdj48YnI-PC9kaXY-PGRpdj5QbGVhc2UgZmluZCBhdHRhY2hlZC4mbmJzcDs8L2Rpdj48ZGl2Pkkgd2FzIHdvbmRlcmluZyBpZiB3ZSBjb3VsZCBzdGFydCBhdCA3IG9yIGVhcmxpZXIgdG9kYXksIGp1c3QgdG8gZmluaXNoIHVwIGVhcmxpZXIgdGhhbiA5LiZuYnNwOzwvZGl2PjxkaXY-PGJyPjwvZGl2PjxkaXY-RG8gbGV0IG1lIGtub3csJm5ic3A7PC9kaXY-PGRpdj5LaW5kIFJlZ2FyZHMsJm5ic3A7PC9kaXY-PGRpdj5HaW9yZ2lhbmEmbmJzcDs8YnI-PGJyPjxkaXYgZGlyPSJsdHIiPlNlbnQgZnJvbSBteSBpUGhvbmU8L2Rpdj48ZGl2IGRpcj0ibHRyIj48YnI-QmVnaW4gZm9yd2FyZGVkIG1lc3NhZ2U6PGJyPjxicj48L2Rpdj48YmxvY2txdW90ZSB0eXBlPSJjaXRlIj48ZGl2IGRpcj0ibHRyIj48Yj5Gcm9tOjwvYj4gR2lvcmdpYW5hIEdvY2kgJmx0O0dpb3JnaWFuYS5Hb2NpQGxpZGwuaWUmZ3Q7PGJyPjxiPkRhdGU6PC9iPiAyMiBPY3RvYmVyIDIwMjAgYXQgMTU6NTY6MjQgSVNUPGJyPjxiPlRvOjwvYj4gZ2lvcmdpIGdvY2kgJmx0O2dpb3JnaWFuYV9nb2NpQHlhaG9vLmNvbSZndDs8YnI-PGI-U3ViamVjdDo8L2I-IDxiPkxlY3RpYSBudW1hcnVsIDM8L2I-PGJyPjxicj48L2Rpdj48L2Jsb2NrcXVvdGU-PGJsb2NrcXVvdGUgdHlwZT0iY2l0ZSI-PGRpdiBkaXI9Imx0ciI-77u_DQoNCjxtZXRhIGh0dHAtZXF1aXY9IkNvbnRlbnQtVHlwZSIgY29udGVudD0idGV4dC9odG1sOyBjaGFyc2V0PXVzLWFzY2lpIj4NCjxtZXRhIG5hbWU9IkdlbmVyYXRvciIgY29udGVudD0iTWljcm9zb2Z0IFdvcmQgMTUgKGZpbHRlcmVkIG1lZGl1bSkiPg0KPHN0eWxlPjwhLS0NCi8qIEZvbnQgRGVmaW5pdGlvbnMgKi8NCkBmb250LWZhY2UNCgl7Zm9udC1mYW1pbHk6IkNhbWJyaWEgTWF0aCI7DQoJcGFub3NlLTE6MiA0IDUgMyA1IDQgNiAzIDIgNDt9DQpAZm9udC1mYWNlDQoJe2ZvbnQtZmFtaWx5OkNhbGlicmk7DQoJcGFub3NlLTE6MiAxNSA1IDIgMiAyIDQgMyAyIDQ7fQ0KLyogU3R5bGUgRGVmaW5pdGlvbnMgKi8NCnAuTXNvTm9ybWFsLCBsaS5Nc29Ob3JtYWwsIGRpdi5Nc29Ob3JtYWwNCgl7bWFyZ2luOjBjbTsNCglmb250LXNpemU6MTEuMHB0Ow0KCWZvbnQtZmFtaWx5OiJDYWxpYnJpIixzYW5zLXNlcmlmOw0KCW1zby1mYXJlYXN0LWxhbmd1YWdlOkVOLVVTO30NCnNwYW4uRW1haWxTdHlsZTE3DQoJe21zby1zdHlsZS10eXBlOnBlcnNvbmFsLWNvbXBvc2U7DQoJZm9udC1mYW1pbHk6IkNhbGlicmkiLHNhbnMtc2VyaWY7DQoJY29sb3I6d2luZG93dGV4dDt9DQouTXNvQ2hwRGVmYXVsdA0KCXttc28tc3R5bGUtdHlwZTpleHBvcnQtb25seTsNCglmb250LWZhbWlseToiQ2FsaWJyaSIsc2Fucy1zZXJpZjsNCgltc28tZmFyZWFzdC1sYW5ndWFnZTpFTi1VUzt9DQpAcGFnZSBXb3JkU2VjdGlvbjENCgl7c2l6ZTo2MTIuMHB0IDc5Mi4wcHQ7DQoJbWFyZ2luOjcyLjBwdCA3Mi4wcHQgNzIuMHB0IDcyLjBwdDt9DQpkaXYuV29yZFNlY3Rpb24xDQoJe3BhZ2U6V29yZFNlY3Rpb24xO30NCi0tPjwvc3R5bGU-PCEtLVtpZiBndGUgbXNvIDldPjx4bWw-DQo8bzpzaGFwZWRlZmF1bHRzIHY6ZXh0PSJlZGl0IiBzcGlkbWF4PSIxMDI2IiAvPg0KPC94bWw-PCFbZW5kaWZdLS0-PCEtLVtpZiBndGUgbXNvIDldPjx4bWw-DQo8bzpzaGFwZWxheW91dCB2OmV4dD0iZWRpdCI-DQo8bzppZG1hcCB2OmV4dD0iZWRpdCIgZGF0YT0iMSIgLz4NCjwvbzpzaGFwZWxheW91dD48L3htbD48IVtlbmRpZl0tLT4NCg0KDQo8ZGl2IGNsYXNzPSJXb3JkU2VjdGlvbjEiPg0KPHAgY2xhc3M9Ik1zb05vcm1hbCI-PG86cD4mbmJzcDs8L286cD48L3A-DQo8cCBjbGFzcz0iTXNvTm9ybWFsIj48bzpwPiZuYnNwOzwvbzpwPjwvcD4NCjxwIGNsYXNzPSJNc29Ob3JtYWwiPjxvOnA-Jm5ic3A7PC9vOnA-PC9wPg0KPC9kaXY-DQoNCg0KPC9kaXY-PC9ibG9ja3F1b3RlPjwvZGl2PjwvYm9keT48L2h0bWw-"
+                        }
+                    },
+                    {
+                        "partId": "1.1",
+                        "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                        "filename": "Lectia 3.docx",
+                        "headers": [
+                            {
+                                "name": "Content-Type",
+                                "value": "application/vnd.openxmlformats-officedocument.wordprocessingml.document; name=\"Lectia 3.docx\"; x-apple-part-url=3FECFE45-D6C8-4928-BB44-51E668806380"
+                            },
+                            {
+                                "name": "Content-Disposition",
+                                "value": "attachment; filename=\"Lectia 3.docx\""
+                            },
+                            {
+                                "name": "Content-Transfer-Encoding",
+                                "value": "base64"
+                            }
+                        ],
+                        "body": {
+                            "attachmentId": "ANGjdJ8qmnbrVr56n-Pdm1hlltUH_hfG3yJ4EF9ZhCJSfqQhuQ11joWuGNtjkJKTuxJCD8MVBg3lkJQHlXnnk6vXm00_6RgvPcA7D1DkuC7nR041dg5WkZwSqJeCy9ISVMaOEOPLyz7mDHrZH68foilNaMjlCoJSz2e8vcqEok3GH1FUbaDYyinu2MLYJlJqrsVHKLf-PN1s6FhD-qLAlVo-cLBbgmF_F_Vp0gKvcqQe0Zk4Seikk9uNT9NyTOqyeIWIx6m58-rJTAdshRh5MsWS9Rwfuzsnq3dKBCQinoggP6yg6GATMobyfg1Wk-TRqFdQUvvxCaU5-a9wss3n4jEYa3p4AhzOX1o1rXSuOZuFxJjSV2npJX6L-ceCbK4WxiDVHvC6671qPOcge_qp",
+                            "size": 1276494
+                        }
+                    },
+                    {
+                        "partId": "1.2",
+                        "mimeType": "text/html",
+                        "filename": "",
+                        "headers": [
+                            {
+                                "name": "Content-Type",
+                                "value": "text/html; charset=us-ascii"
+                            },
+                            {
+                                "name": "Content-Transfer-Encoding",
+                                "value": "7bit"
+                            }
+                        ],
+                        "body": {
+                            "size": 189,
+                            "data": "PGh0bWw-PGhlYWQ-PG1ldGEgaHR0cC1lcXVpdj0iY29udGVudC10eXBlIiBjb250ZW50PSJ0ZXh0L2h0bWw7IGNoYXJzZXQ9dXMtYXNjaWkiPjwvaGVhZD48Ym9keSBkaXI9ImF1dG8iPjxkaXY-PGJsb2NrcXVvdGUgdHlwZT0iY2l0ZSI-PGRpdiBkaXI9Imx0ciI-PC9kaXY-PC9ibG9ja3F1b3RlPjwvZGl2PjwvYm9keT48L2h0bWw-"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "sizeEstimate": 1756973,
+    "historyId": "6405533",
+    "internalDate": "1603380983000"
+}
