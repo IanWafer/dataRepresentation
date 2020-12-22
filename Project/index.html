@@ -115,7 +115,7 @@
                 present= getPresentFromForm()
                 console.log(present)
                 $.ajax({
-                    url: '/santaPresents',
+                    url: host+'/santaPresents',
                     data:JSON.stringify(present),
                     method: 'POST',
                     dataType: 'JSON',
@@ -141,7 +141,7 @@
 
             function updateServer(present){
                 $.ajax({
-                    url: '/santaPresents/'+present.id,
+                    url: host+'/santaPresents/'+present.id,
                     data:JSON.stringify(present),
                     method: 'PUT',
                     dataType: 'JSON',
@@ -203,7 +203,7 @@
             function populateTable(){
                 //ajax getAll
                 $.ajax({
-                    url:'/santaPresents',
+                    url:host+'/santaPresents',
                     method: 'GET',
                     dataType:'JSON',
                     success:function(results){
