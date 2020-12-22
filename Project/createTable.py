@@ -9,6 +9,6 @@ db = mysql.connector.connect(
 )
 
 cursor = db.cursor()
-sql="CREATE TABLE santaPresents (id INT PRIMARY KEY, name VARCHAR(250), from_age INT, price INT)"
+sql='CREATE TABLE santaPresents (id INT PRIMARY KEY, name VARCHAR(250), fromAge INT, price INT)'
 
 cursor.execute(sql)
