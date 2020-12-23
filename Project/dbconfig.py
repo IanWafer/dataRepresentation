@@ -1,6 +1,6 @@
 mysql={
-    'host': 'localhost',
-    'username': 'root',
-    'password': '',
-    'database': 'datarepproj'
+    'host': 'IanWafer.mysql.pythonanywhere-services.comcalhost',
+    'username': 'IanWafer',
+    'password': 'cell1092',
+    'database': 'DataRRepProj'
 }
